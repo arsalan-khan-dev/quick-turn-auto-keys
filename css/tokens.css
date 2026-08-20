@@ -1,0 +1,70 @@
+/* ==========================================================================
+   QUICK TURN AUTO KEYS — DESIGN TOKENS
+   Single source of truth for colour, type, spacing, radius, motion.
+   Do not introduce values outside this system elsewhere in the codebase.
+   ========================================================================== */
+
+:root {
+  /* ---- Colour ---- */
+  --bg: #12141A;
+  --surface: #1B1E26;
+  --surface-2: #20232C;
+  --accent: #C08A4E;
+  --accent-hover: #CD9A5F;
+  --accent-dim: #8C6538;
+  --secondary: #8CA9BA; /* Lightened to pass WCAG AA (~7.45:1 contrast against --bg) */
+  --text-primary: #F2F1EC;
+  --text-muted: #9BA0AC;
+  --border: #2A2E38;
+  --button-text-on-accent: #15161B;
+
+  /* ---- Typography ---- */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --h1-size: clamp(28px, 4.6vw, 46px);
+  --h1-weight: 600;
+  --h1-line: 1.14;
+
+  --h2-size: clamp(22px, 3vw, 29px);
+  --h2-weight: 600;
+  --h2-line: 1.2;
+
+  --card-heading-size: 17.5px;
+  --card-heading-weight: 600;
+
+  --body-size: 15px;
+  --body-weight: 400;
+  --body-line: 1.62;
+
+  --small-size: 12px;
+  --small-weight: 500;
+  --small-tracking: 0.07em;
+
+  --button-size: 13.5px;
+  --button-weight: 500;
+
+  /* ---- Layout ---- */
+  --container-max: 1180px;
+  --pad-desktop: 32px;
+  --pad-1080: 28px;
+  --pad-680: 20px;
+  --pad-480: 16px;
+
+  --section-pad-desktop: 88px;
+  --section-pad-mobile: 44px;
+
+  --gap-grid: 22px;
+  --gap-column: 48px;
+
+  /* ---- Radius ---- */
+  --radius-button: 2px;
+  --radius-card: 4px;
+  --radius-image: 4px;
+
+  /* ---- Motion ---- */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 160ms;
+  --duration-medium: 220ms;
+  --duration-slow: 600ms;
+}
