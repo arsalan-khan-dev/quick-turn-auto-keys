@@ -1852,9 +1852,10 @@ a.mfr-card:hover .mfr-card-name {
 .cta-band .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
 }
 .cta-band-text h2 {
   margin-bottom: 8px;
